@@ -12,9 +12,9 @@ language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://jr0cket.co.uk/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
