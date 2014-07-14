@@ -81,7 +81,7 @@ disqus_shortname: jr0cketcommunitydevelopre
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: landscape
+theme: landscape-jr0cket
 exclude_generator:
 
 # Deployment
