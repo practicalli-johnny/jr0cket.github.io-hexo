@@ -1,0 +1,3 @@
+[submodule "themes/landscape-jr0cket"]
+	path = themes/landscape-jr0cket
+	url = git@github.com:jr0cket/hexo-theme-landscape-jr0cket.git
