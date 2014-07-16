@@ -81,7 +81,7 @@ disqus_shortname: jr0cketcommunitydevelopre
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: landscape-jr0cket
+theme: landscape
 exclude_generator:
 
 # Deployment
@@ -90,3 +90,9 @@ deploy:
   type: github 
   repo: git@github.com:jr0cket/jr0cket.github.io.git
   branch: master
+
+## RSS Feed - using https://github.com/hexojs/hexo-generator-feed
+feed:
+    type: atom
+    path: atom.xml
+    limit: 50
