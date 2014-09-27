@@ -1,4 +1,6 @@
-# <a id="#chapter1">Git overview</a>
+title: Overview of Git and Github
+date: 2014-08-24 18:22:00
+---
 
 Git is a very powerful tool for managing the changes you make as you develop source code for your software projects.  Typically those changes tracked are the ones made to source code and configuration files.  Git understands how to merge text files together, allowing you to pull in changes from others.  It also helps you compare changes in different versions of text files using the diff tool.
 
@@ -21,4 +23,4 @@ Should you wish to work on the project you can create your own copy, called a fo
 Should you wish to submit your chages back to the original project, you can create a pull request from your fork.  A pull request is a message and one or more commits that are sent to the original project team, inviting them to pull in the changes from your forked repository.
 
 
-[Back to top...](#top) | [Next: Choose your git client](chapter02-choose-your-git-client.html) | [Back to Workshop home...](index.html)
+[Back to top...](#top) | [Next: Choose your git client](choose-your-git-client.html) | [Back to Git and Github Workshop home...](index.html) | [jr0cket workhops](/workshops/)
