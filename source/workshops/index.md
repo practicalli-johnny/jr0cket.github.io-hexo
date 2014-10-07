@@ -10,6 +10,11 @@ A series of workshops to help you get started with common developer tools and se
 * Emacs Basics
 * Emacs Live
 
+# Clojure 
+* [Clojure Kick Start](../clojure-kickstart-workshop) (brainstorming) 
+* Clojure Web Apps (brainstorming) 
+* ClojureScript (planning)
+
 ## Heroku - deploying & scaling apps
 
 * [Herok - simple website workshop](../heroku-simple-website-workshop) (Work in progress)
