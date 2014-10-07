@@ -1,10 +1,14 @@
-title: Gith and Github Workshop
+title: Git and Github Workshop
 date: 2014-08-24 18:22:00
 ---
 
 This tutorial will give you a practical guide to using the Git tool for version control, so you can easily managing changes to source code and configuration files in projects.  The tutorial also covers collaborating on projects using Github public repositories.  
 
+If you just want a very quick start, take a look at [Git in two minutes](git-in-two-minutes.html).
+
 > Please read [an overview of Git](overview-of-git.html) if you want more background into the tool and how distributed version control works.
+
+
 
 ## Setting up Git & Github 
 - [Choose your git client](choose-your-git-client.html)
@@ -15,6 +19,7 @@ This tutorial will give you a practical guide to using the Git tool for version 
 
 ## Creating Git Projects
 * [Creating a Git managed project](creating-a-git-managed-project.html)
+* [Creating projects with build tools](creating-projects-with-buildtools.html)
 * [Ignoring files](ignoring-files.html)
 
 
@@ -52,29 +57,6 @@ This tutorial will give you a practical guide to using the Git tool for version 
  * Git submodules
 
 
-# Git in two minutes 
-
-If you have installed Git and know roughly how git works and just want the commands, here is the workflow:
-
-    # Tell Git who you are (only done once)
-    git config --global user.name "your name"
-    git config --global user.email "your.name@domain.com"
-
-    # Initialise a local repository
-    git init
-    
-    # Tell Git which files you want to make part of the next commit
-    git add filename   ; to add a specific file
-    git add .          ; to add everything
-    
-    # Commit those files into a new version 
-    git commit -m "meaningful commit message"
-    
-    # Push your code to a remote repository
-    git remote add repo-name git@github.com:github-account/repo-name.git
-    git push repo-name master
- 
- See my [Git cheet sheet](/developer-guides/git-quickstart-guide.png) for the most common commands for using Git
 
 # Git local workflow visualised 
 
@@ -97,5 +79,17 @@ To give you a big picture view of how you use Git and Github, here is a visualis
 
 [Back to top...](#top)
 
-Last update: March 19 July, 2014
+
+## Things to look at
+
+Stuff to look at
+git reflog -- lists all the commits that you ever did
+
+git bisect -- binary search on your git history 
+git bisect good <hash>
+git bisect bad <hash>
+git bisect reset
+
+git hooks 
+
 

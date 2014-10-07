@@ -1,29 +1,10 @@
-# <a id="top">Creating a Git version controlled project</a>
-
-Create a new folder / project by either creating the project structure yourself or using a build tool to create it for you.  Here are some of the example build tools you could use:
+title: Creating a Git version controlled project
+date: 2014-09-27 10:55:00
+--- 
 
 <img class="img-topic" src="images/git-local-workflow.png">
 
-    ## Node project
-    npm init
-    
-    ## Node project via Grunt-init
-    grunt-init my-template
-
-    ## Project via Yoman generator 
-    yo generator 
-
-    ## Java project with Maven 
-    mvn new my-project
-    
-    ## Clojure project with Leiningen 
-    lein new my-project
-    
-    ## Scala project using Play framework
-    play new my-project
-
-
-## Creating the local Git repository
+Create a new folder / project by either creating the project structure yourself or using a build tool to create it for you.  Here are some of the example build tools you could use:
 
 Change into the new folder created for your project.  Then create a new git repository using the git initialise command:
 
