@@ -4,7 +4,7 @@ date: 2014-08-19 23:31:08
 
 {% img img-topic /images/clojure-logo.png %}
 
-# Clojure Overview - basic characteristics, why I love the language 
+# 01 Clojure Overview - basic characteristics, why I love the language 
 
 Clojure is a general purpose programming language, designed with thought and care to be a modern version of LISP.  Clojure code runs on either the Java Virtual Machine (JVM) or as ClojureScript on a JavaScript runtime (eg. Google V8).
 
