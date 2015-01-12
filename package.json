@@ -1,12 +1,12 @@
 {
   "name": "hexo-site",
-  "version": "2.8.2",
+  "version": "2.8.3",
   "private": true,
   "dependencies": {
     "hexo-renderer-ejs": "*",
     "hexo-renderer-stylus": "*",
     "hexo-renderer-marked": "*",
-    "hexo-generator-feed": "^0.2.0",
+    "hexo-generator-feed": "^0.2.1",
     "hexo-admin": "^0.1.3"
   }
 }
