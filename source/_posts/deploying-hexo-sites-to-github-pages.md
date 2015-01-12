@@ -10,7 +10,7 @@ Hexo is a great way to easily generate content and publish it use Github pages.
 See my previous articles on setting up [Hexo](/tags/hexo) and creating content
 {% endblockquote %}
 
-
+<!-- more -->
 
 ## Configuring your site name
 
@@ -21,7 +21,7 @@ Its important to add the URL of your github pages site to the Hexo configuraiton
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://jr0cket.github.io/hexo-blog-test
 root: /hexo-blog-test/
-{% codeblock %}
+{% endcodeblock %}
 
 If your project uses a sub-folder, Make sure that the root line has a trailing forward slash, otherwise your URL paths will not be correct.
 
@@ -29,7 +29,9 @@ Projects use a sub-folder if they are deployed to the gh-pages branch of a repo.
 
 ### Example
 
-roote: /hexo-blog-test  
+```
+root: /hexo-blog-test  
+```
 
 This will give /hexo-blog-test2014-name-of-blog-post and wont show the page up or if it does then probably wont include the CSS styles
 
