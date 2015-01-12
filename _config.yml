@@ -95,4 +95,4 @@ deploy:
 feed:
     type: atom
     path: atom.xml
-    limit: 50
+    limit: 75
