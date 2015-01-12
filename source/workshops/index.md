@@ -17,9 +17,7 @@ A series of workshops to help you get started with common developer tools and se
 
 ## Heroku - deploying & scaling apps
 
-* [Herok - simple website workshop](../heroku-simple-website-workshop) (Work in progress)
-* [Heroku for Java apps with Play2 Frameworks](../heroku-java-play2-workshop/) (March 2013)
-* [Heroku for JavaScript with Meteor](../heroku-meteor/) (to be replaced)
+* [Heroku workshop](http://agileforce.co.uk/heroku-workshop/) - a new workshop to learn Heroku from scratch, by deploying a Java application and Postgres database (no coding required).
 
 ### Work in progress Heroku workshops 
 * Heroku for Scala apps with Play2 Frameworks
