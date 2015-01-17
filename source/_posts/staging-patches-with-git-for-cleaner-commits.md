@@ -11,7 +11,7 @@ Some times you work on your code or configuration files and realise you have mad
 
 <!-- more -->
 
-You can use the git via the interactive mode, however its just as easy to use the `git add -p` .  The `-p` option allows you to select what git calls _hunks_, lines git sees as a change within a file.  A hunk may be a change to one line or changes across several lines grouped together. 
+You can use the git via the interactive mode `git add -i`, however its just as easy to use the command `git add --patch` or its short form `git add -p`.  The `--patch` or `-p` option allows you to select what git calls _hunks_, lines git sees as a change within a file.  A hunk may be a change to one line or changes across several lines grouped together. 
 
     git add -p .
 
