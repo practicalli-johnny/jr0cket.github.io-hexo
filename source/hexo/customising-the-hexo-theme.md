@@ -10,9 +10,9 @@ Whilst I lke the [Hexo theme landscape](https://github.com/hexojs/hexo-theme-lan
 
 Here are a series of guides showing how I changed diffent aspects of the Heroku default them, landscape.
 
-* Forking the Hexo landscape theme - forking the Github repository and calling the theme jr0cket-landscape.  
+* Create a new theme bye Forking the Hexo landscape theme
 * Updating the hexo project configuration to use the new theme.
-* Strealining the title & changing the graphic 
+* Strealining the title & changing the graphic
 * Defining additional items on the top navbar - links inside your hexo website and external websites
 * Changing to the Ubuntu font
 * Adding Font Awesome Icon graphics for social media links
@@ -22,11 +22,10 @@ Here are a series of guides showing how I changed diffent aspects of the Heroku 
 
 # Creating your own theme
 
-The default hexo theme is very good and I am happy now I made my customisations.  However, it is possible to create a new theme from stratch.
+  Rather than build a new theme from scratch, I am going to base my new theme on the default Hexo theme called Landscape.  The Landscape theme has a responsive design and provides much of the design & layout I want from my theme.  Using Landscape as a starting point will also give quicker visual feedback for my changes.
 
-To keep a nice seperation between the hexo project customisations and theme customisations, I have created my own theme based on Hexo landscape.
-
-To create my theme based on Hexo Landscape theme, I first fork the [hexo-theme-landscape repository](https://github.com/hexojs/hexo-theme-landscape.git) on Github by pressing the fork button on its repository page. 
+## Forking the Hexo theme
+To create my theme based on Hexo Landscape theme, I first fork the [hexo-theme-landscape repository](https://github.com/hexojs/hexo-theme-landscape.git) on Github by pressing the fork button on its repository page.
 
 As this is a seperate project I am renaming my fork.  In the settings for my fokrked repostior, I change the name of the repostory to **hexo-theme-landscape-jr0cket**
 
@@ -40,7 +39,7 @@ Now I can edit the theme as I am building my new website and put all my theme ch
 
 There maybe updates from the original theme I want to incorporate with my new theme, so I also add the repository from the original hexo-theme-landscape to my local clone
 
-    git remote add original-theme https://github.com/hexojs/hexo-theme-landscape.git 
+    git remote add original-theme https://github.com/hexojs/hexo-theme-landscape.git
 
 Then if there are updates to the original theme, I can create a new branch in my local repository and pull the changes to the original landscape theme in using Git:
 
@@ -51,9 +50,8 @@ As I am on a new branch, `original-theme-updates` I can see the affects of these
 
 To see the specific code changes I can do a diff between my `master` branch and the `original-theme-branch`.  If there are any changes I want to keep then I can merge them into master.
 
-> Merging specific commits from one branch to another is a Git technique called cherry picking. 
+> Merging specific commits from one branch to another is a Git technique called cherry picking.
 
 
 
 [Back to Hexo overview](index.html) | [Using Git Submodule to manage your custom Hexo theme](using-git-submodules-for-custom-hexo-theme.html)
-
