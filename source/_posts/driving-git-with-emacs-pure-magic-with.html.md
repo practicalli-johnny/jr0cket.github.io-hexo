@@ -13,6 +13,7 @@ Getting to grips with Git was not to much of a learning curve, although I found 
 
 As I do most of my Clojure development in Emacs, it was great to discover I could drive git from Emacs using Magit.  What follows is a flow through the first steps with Magit.
 
+> In part two I look at [Git logs with Magit](/2012/12/driving-git-with-emacs-part-two-may-log.html.html)
 <!-- more -->
 
 {% img img-code http://2.bp.blogspot.com/-Nw-UkZubf-Y/UNys45ExNRI/AAAAAAAAIzI/QLRPlj5FV7g/s1600/Emacs-magit-status-example.png %}
@@ -155,7 +156,9 @@ Pressing `P` again pushes to the remote repository.
 
 # And there is more magit
 
-There is a lot more you can do with magit, which I'll cover in later articles.  If you are really keen you can have a look at the [Magit documentation](http://philjackson.github.com/magit/magit.html), or if you know what you want to do then the [Magit cheet sheet](http://daemianmack.com/magit-cheatsheet.html) may be more useful.
+There is a lot more you can do with magit, next up is [Git logs with Magit](/2012/12/driving-git-with-emacs-part-two-may-log.html.html).  
+
+If you are really keen you can have a look at the [Magit documentation](http://philjackson.github.com/magit/magit.html), or if you know what you want to do then the [Magit cheet sheet](http://daemianmack.com/magit-cheatsheet.html) may be more useful.
 
 # Magit not cutting the mustard ?
 
