@@ -87,12 +87,13 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github 
+  type: git
   repo: git@github.com:jr0cket/jr0cket.github.io.git
   branch: master
+  message: "jr0cket blog updated by Hexo deploy"
 
 ## RSS Feed - using https://github.com/hexojs/hexo-generator-feed
 feed:
     type: atom
     path: atom.xml
-    limit: 75
+    limit: 100
