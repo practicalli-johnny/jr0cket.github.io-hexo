@@ -1,7 +1,5 @@
 title: long distance cycling preparation tips 
 date: 2014-05-17 12:54:06
-categories: health 
-- cycling 
 ---
 
 # Trainng for the Ride 

@@ -5,7 +5,9 @@ tags:
 - agile
 ---
 
-{% img img-thumbnail http://blog.gadodia.net/wp-content/uploads/2007/11/agile.jpg)</div>A man is in a hot air balloon and he realizes he is lost. He spots a man in the field below him and calls down: 
+{% img img-thumbnail http://blog.gadodia.net/wp-content/uploads/2007/11/agile.jpg %}
+
+A man is in a hot air balloon and he realizes he is lost. He spots a man in the field below him and calls down:
 
 “Excuse me, can you help? I promised a friend I’d be somewhere half an hour ago but I’m completely lost. Can you tell me where I am?” 
 
