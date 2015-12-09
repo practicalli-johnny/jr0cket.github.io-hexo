@@ -13,6 +13,8 @@ Adding the Clojure layer to Spacemacs provides great support for the language vi
 
 The **Clojure** layer also adds to the **auto-completion** layer, providing matches for anything currently defined in the current namespace.  The yasnippets package also allows you to expand shortcuts for common Clojure code structures, eg. def, defn, let, require.
 
+> Updated for the release of CIDER 0.10 on 4th December 2015, codename ClojureX
+
 <!-- more -->
 
 # Adding Clojure support
