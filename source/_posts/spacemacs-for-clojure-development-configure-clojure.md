@@ -13,8 +13,6 @@ Adding the Clojure layer to Spacemacs provides great support for the language vi
 
 The **Clojure** layer also adds to the **auto-completion** layer, providing matches for anything currently defined in the current namespace.  The yasnippets package also allows you to expand shortcuts for common Clojure code structures, eg. def, defn, let, require.
 
-> Updated for the release of CIDER 0.10 on 4th December 2015, codename ClojureX
-
 <!-- more -->
 
 # Adding Clojure support
@@ -51,18 +49,21 @@ To enable this feature, edit the `./spacemacs` file and add the following snippe
 
 # Configure Leiningen
 
-Install Leiningen using the instructions on [Leiningen.org](http://leiningen.org).
+Install Leiningen using the instructions on [Leiningen.org](http://leiningen.org), or if you already have Leiningen installed then check you have the latest version via `lein upgrade`
+
+> Leiningen should be version 2.5.2 or greater as of 28th December 2015
 
 Edit the Leiningen profile configuration for your useer, eg. `~/.lein/profiles.clj` and add the following plugins and dependencies:
 
 ```clojure
-{:user {:plugins      [[cider/cider-nrepl "0.10.0"]
-                       [refactor-nrepl "1.2.0"]]
+{:user {:plugins      [[cider/cider-nrepl "0.11.0-SNAPSHOT"]
+                       [refactor-nrepl "2.0.0-SNAPSHOT"]]
         :dependencies [[alembic "0.3.2"]
                        [org.clojure/tools.nrepl "0.2.12"]]}}
 ```
 
-> Check for the latest versions of [cider-nrepl](https://clojars.org/cider/cider-nrepl), [refactor-nrepl](https://clojars.org/refactor-nrepl), [alembic](https://clojars.org/alembic) & [tools.nrepl](https://github.com/clojure/tools.nrepl)
+> Plugin versions are the latest as of 28th December 2015.
+> You can also check for the latest versions of [cider-nrepl](https://clojars.org/cider/cider-nrepl), [refactor-nrepl](https://clojars.org/refactor-nrepl), [alembic](https://clojars.org/alembic) & [tools.nrepl](https://github.com/clojure/tools.nrepl)
 
 The `cider-nrepl` plugin should match the version of CIDER used in Spacemacs, found by using  `M-x cider-version`. You will see a warning message in the REPL buffer if the versions do not match, for example:
 
