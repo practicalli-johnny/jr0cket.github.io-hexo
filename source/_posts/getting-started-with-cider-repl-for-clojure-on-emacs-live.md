@@ -1,9 +1,10 @@
 title: getting started with cider repl for clojure on emacs live
 date: 2015-01-21 11:07:17
-categories: dev-tools
+categories: emacs
 tags:
 - clojure
 - emacs
+- dev-tools
 ---
 {% img img-thumbnail /images/clojure-cider-logo.png %}
 

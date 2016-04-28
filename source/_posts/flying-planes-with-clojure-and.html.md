@@ -1,8 +1,11 @@
 title: Flying planes with Clojure and FlightGear
 date: 2013-03-21 21:33:00
-categories: events
+categories: clojure
 tags: 
 - clojure
+- coding
+- events
+
 ---
 
 Dale Thatcher from the [London Clojure community](http://londonclojurians.org/) created a [Clojure project](https://github.com/dalethatcher/flightgear) that allows you to fly a plane in real time.  Now, Dale has not yet connected this to a real plane, instead he is using the open source flight simulator, [FlightGear](http://www.flightgear.org/).

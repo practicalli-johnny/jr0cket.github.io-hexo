@@ -1,8 +1,9 @@
 title: Driving Git with Emacs - part two - may the log be with you
 date: 2012-12-30 11:48:00
-categories: dev-tools
+categories: emacs
 tags: 
 - emacs
+- dev-tools
 - git
 - magit
 ---

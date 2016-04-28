@@ -1,8 +1,9 @@
 title: Using Emacs 24 server on Mac OSX for instant editing
 date: 2012-10-21 17:10:00
-categories: dev-tools
+categories: emacs
 tags: 
 - emacs
+- dev-tools
 - git
 ---
 

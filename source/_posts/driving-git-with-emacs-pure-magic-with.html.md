@@ -1,8 +1,9 @@
 title: Driving Git with Emacs - pure magic with magit - part one
 date: 2012-12-27 20:29:00
-categories: dev-tools
+categories: emacs
 tags: 
 - emacs
+- dev-tools
 - git
 - magit
 ---

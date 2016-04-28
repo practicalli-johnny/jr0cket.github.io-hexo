@@ -1,10 +1,11 @@
 title: Emacs Live - instant Clojure development environment
 date: 2013-01-14 23:36:00
-categories: dev-tools
+categories: emacs
 tags: 
 - clojure
 - emacs
 - emacslive
+- dev-tools
 ---
 
 {% img img-thumbnail /images/emacs-logo.png %}

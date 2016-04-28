@@ -1,10 +1,11 @@
 title: Github pages for Reveal.js slides created with Emacs Org-mode
 date: 2014-01-03 13:34:00
-categories: presenting
+categories: emacs
 tags: 
 - emacs
-- orgmode 
-- github
+- dev-tools
+- github-pages 
+- org-mode
 ---
 
 {% img img-thumbnail http://1.bp.blogspot.com/-qlVcL6zWbjY/TzFMw8PPiGI/AAAAAAAAEbs/-Ozv0X_6mrQ/s1600/github-logo.png %}

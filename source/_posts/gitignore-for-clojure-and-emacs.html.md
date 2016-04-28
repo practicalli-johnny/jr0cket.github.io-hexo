@@ -1,10 +1,11 @@
 title: GitIgnore for Clojure and Emacs - ignore Emacs backup & temp files
 date: 2012-12-13 08:00:00
-categories: dev-tools
+categories: git
 tags: 
 - clojure
 - emacs
 - git
+- dev-tools
 ---
 
 {% img img-thumbnail http://git-scm.com/images/logo.png %}

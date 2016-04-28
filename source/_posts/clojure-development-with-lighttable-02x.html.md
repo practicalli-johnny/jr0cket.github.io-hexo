@@ -1,8 +1,10 @@
 title: Clojure development with LightTable 0.2.x
 date: 2012-12-04 19:13:00
-categories: dev-tools
+categories: clojure
 tags: 
 - clojure
+- coding
+- dev-tools
 - lighttable
 ---
 

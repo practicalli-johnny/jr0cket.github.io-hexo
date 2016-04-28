@@ -1,8 +1,10 @@
 title: London Clojure dojo - 27th September 2011
 date: 2011-09-27 23:59:00
-categories: events 
+categories: clojure
 tags: 
-- clojure 
+- clojure
+- coding
+- events
 ---
 
 {% img img-thumbnail http://ldncljdojo.eventwax.com/uploaded/logo//early-may-2011-london-clojure-dojo/20110419095837-ldncljdojo.png %}

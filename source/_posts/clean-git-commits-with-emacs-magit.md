@@ -1,8 +1,9 @@
 title: Clean Git commits with Emacs Magit
 date: 2015-02-09 10:28:30
-categories: dev-tools
+categories: emacs
 tags:
 - emacs
+- dev-tools
 - git
 - magit
 ---

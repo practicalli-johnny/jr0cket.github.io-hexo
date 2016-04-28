@@ -1,9 +1,10 @@
 title: Create HTML5 presentations easily with Emacs and Reveal.js
 date: 2013-10-03 12:00:00
-categories: presenting
+categories: emacs
 tags: 
 - emacs
 - revealjs
+- presenting
 ---
 
 {% img img-thumbnail http://1.bp.blogspot.com/-PLeobToC6lc/TzFJCfBSLPI/AAAAAAAAEbE/zSx1cOgHzZE/s1600/emacs128x128icon.png %}

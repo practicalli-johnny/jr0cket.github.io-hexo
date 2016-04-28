@@ -1,7 +1,8 @@
 title: "spacemacs for clojure development with emacs - configure clojure"
 date: 2015-09-07 17:54:45
-categories: dev-tools
+categories: emacs
 tags:
+- cider
 - clojure
 - emacs
 - spacemacs
@@ -41,7 +42,7 @@ You can configure the Clojure layer to use pretty symbols to represent a few thi
 Ƥ              ;; partial function (partial ...)
 ```
 
-To enable this feature, edit the `./spacemacs` file and add the following snippet to the `dotspacemacs/config` function:
+To enable this feature, edit the `./spacemacs` file and add the following snippet to the `dotspacemacs/user-config` function:
 
 ```lisp
 (setq clojure-enable-fancify-symbols t)
@@ -51,7 +52,14 @@ To enable this feature, edit the `./spacemacs` file and add the following snippe
 
 Install Leiningen using the instructions on [Leiningen.org](http://leiningen.org), or if you already have Leiningen installed then check you have the latest version via `lein upgrade`
 
-> Leiningen should be version 2.5.2 or greater as of 28th December 2015
+> Leiningen should be version 2.6.x or greater as of 22nd February 2015
+
+If you are using CIDER 0.11 or greater then you are done, as from this version the Leiningen dependencies are automatically injected when you start `cider-jack-in`.
+
+![Clojure REPL - CIDER dependency injection for cider-jack-in](/images/emacs-cider-auto-dependencies-messages.png)
+
+
+## Only for CIDER 0.10 or earlier
 
 Edit the Leiningen profile configuration for your useer, eg. `~/.lein/profiles.clj` and add the following plugins and dependencies:
 

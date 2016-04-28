@@ -1,9 +1,10 @@
 title: Tweeking Emacs modeline for Clojure Development
 date: 2013-01-04 11:01:00
-categories: dev-tools
+categories: emacs
 tags: 
 - emacs
 - clojure
+- dev-tools
 ---
 
 {% img img-thumbnail http://1.bp.blogspot.com/-PLeobToC6lc/TzFJCfBSLPI/AAAAAAAAEbE/zSx1cOgHzZE/s1600/emacs128x128icon.png %}

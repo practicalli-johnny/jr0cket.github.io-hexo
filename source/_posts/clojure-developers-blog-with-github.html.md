@@ -1,9 +1,11 @@
 title: Clojure developers blog with Github Gists
 date: 2012-04-12 11:25:00
-categories: dev-tools
+categories: github
 tags: 
 - clojure
 - github
+- github-gists
+- coding
 ---
 
 {% img img-thumbnail http://3.bp.blogspot.com/-te_MuKdFBTQ/TzFLahe2BxI/AAAAAAAAEbY/Bn_JPN_s3qU/s1600/clojure-logo-500x.png %}

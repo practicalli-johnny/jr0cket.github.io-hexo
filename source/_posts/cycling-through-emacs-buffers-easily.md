@@ -1,7 +1,9 @@
 title: Cycling through Emacs buffers easily
 date: 2014-07-13 12:27:39
-categories: dev-tools
-tags: emacs
+categories: emacs
+tags: 
+- emacs
+- dev-tools
 ---
 
 {% img img-thumbnail /images/emacs-logo.png %}

@@ -1,8 +1,10 @@
 title: ClojureScript - the hard truth - London Clojurians March 2012 dojo
 date: 2012-03-28 16:30:00
-categories: events
+categories: clojure
 tags: 
+- clojure
 - clojurescript
+- coding
 
 ---
 

@@ -1,8 +1,10 @@
 title: Clojure poetry in motion - developers get creative again at London coding dojo
 date: 2012-09-03 05:58:00
-categories: coding
+categories: clojure
 tags: 
 - clojure
+- coding
+
 ---
 {% img img-thumbnail http://3.bp.blogspot.com/-2eAwzw2-ujM/T4q6G9NelbI/AAAAAAAAHQk/wecy_sHn7K8/s1600/ldncljdojo.jpg %} 
 

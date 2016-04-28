@@ -1,8 +1,9 @@
 title: Emacs tip - turn Auto Fill off when writing blog posts
 date: 2012-02-07 15:55:00
-categories: dev-tools
+categories: emacs
 tags: 
 - emacs
+- dev-tools
 ---
 
 {% img img-thumbnail /images/emacs-logo.png %}

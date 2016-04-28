@@ -1,8 +1,9 @@
 title: custom powerline theme for Emacs modeline
 date: 2015-01-30 22:49:53
-categories: dev-docs
+categories: emacs
 tags:
 - emacs
+- dev-tools
 ---
 
 {% img img-thumbnail /images/emacs-logo.png %}

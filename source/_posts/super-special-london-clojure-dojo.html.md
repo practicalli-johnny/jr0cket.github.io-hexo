@@ -1,8 +1,11 @@
 title: Super special London Clojure dojo
 date: 2011-12-14 12:51:00
-categories: events
+categories: clojure
 tags: 
 - clojure
+- coding
+- events
+
 ---
 
 {% img img-thumbnail http://4.bp.blogspot.com/-NgZYY3DRA4E/TuiXocmSOcI/AAAAAAAABKA/OGxF3j1o0Sk/s1600/20110617091837-ldncljdojo.png %} 

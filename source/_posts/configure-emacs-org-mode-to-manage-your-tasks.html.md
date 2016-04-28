@@ -1,9 +1,10 @@
 title: Configuring Emacs Org-mode to managing your tasks
 date: 2013-08-26 21:44:00
-categories: dev-tools
+categories: emacs
 tags: 
 - emacs
-- orgmode
+- dev-tools
+- org-mode
 ---
 
 {% img img-thumbnail http://1.bp.blogspot.com/-PLeobToC6lc/TzFJCfBSLPI/AAAAAAAAEbE/zSx1cOgHzZE/s1600/emacs128x128icon.png %} 

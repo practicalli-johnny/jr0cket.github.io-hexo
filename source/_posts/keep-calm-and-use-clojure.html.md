@@ -1,9 +1,10 @@
 title: Keep calm and use Clojure
 date: 2012-04-01 19:13:00
-categories: events
+categories: clojure
 tags: 
 - clojure
 - atlassian
+- events
 ---
 
 {% img img-thumbnail http://2.bp.blogspot.com/-0McXtCCKO48/T3iYGCTh99I/AAAAAAAAHIc/N2Gcjifias8/s1600/keep-calm-and-use-clojure.png %}

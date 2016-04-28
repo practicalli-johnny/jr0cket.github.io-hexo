@@ -1,8 +1,11 @@
 title: Battleships at London Clojure coding dojo - January 2012
 date: 2012-02-07 16:15:00
-categories: events
+categories: clojure
 tags: 
 - clojure
+- coding
+- events
+
 ---
 
 {% img img-thumbnail http://3.bp.blogspot.com/-dHDGQemeztI/TzFK4RV4_zI/AAAAAAAAEbM/AQn4UlfVuWQ/s1600/220px-Battleship_game_board.svg.png %}

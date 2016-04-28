@@ -1,10 +1,12 @@
 title: Faster Clojure REPL startup with Java 9 snapshot
 date: 2015-01-03 20:18:13
-categories: dev-tools
+categories: clojure
 tags: 
-- java 
-- clojure
+- clojure 
+- dev-tools
+- java
 - lighttable
+
 ---
 
 {% img img-thumbnail /images/java-logo.png %}

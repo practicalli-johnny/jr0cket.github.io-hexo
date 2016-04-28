@@ -1,9 +1,10 @@
 title: Tweaking Emacs modeline with Powerline
 date: 2015-01-28 22:59:23
-categories: dev-tools
+categories: emacs
 tags:
 - emacs
 - emacslive
+- dev-tools
 ---
 
 {% img img-thumbnail /images/emacs-logo.png %}

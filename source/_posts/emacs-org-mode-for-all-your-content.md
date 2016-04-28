@@ -3,9 +3,10 @@ layout: post
 title: "Emacs Org-mode for all your content"
 date: 2014-03-16 12:35:37 +0000
 comments: true
-categories: dev-tools
+categories: emacs
 tags: 
 - emacs
+- dev-tools
 - org-mode
 ---
 

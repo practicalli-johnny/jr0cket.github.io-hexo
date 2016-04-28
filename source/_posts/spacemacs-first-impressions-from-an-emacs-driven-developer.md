@@ -1,7 +1,8 @@
 title: "Spacemacs - first impressions from an Emacs driven developer"
 date: 2015-08-06 00:24:31
-Categories: dev-tools
+categories: emacs
 tags:
+- spacemacs
 - emacs
 ---
 

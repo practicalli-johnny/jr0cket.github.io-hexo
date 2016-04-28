@@ -1,10 +1,13 @@
 title: Learning Clojure through practice - London Clojurians February dojo
 date: 2012-02-29 22:30:00
-categories: events
+categories: clojure
 tags: 
 - 4clojure
-- clojure 
+- clojure
+- coding 
 - emacslive
+- events
+
 ---
 
 {% img img-thumbnail http://4.bp.blogspot.com/-2cr1Ig4KeS8/T2DECGVqQbI/AAAAAAAAGKg/t8crLWDICgA/s1600/clojure-dojo-logo.png %}

@@ -1,8 +1,10 @@
 title: Clojure templates are easy with Leinigen
 date: 2015-03-09 22:58:28
-categories: dev-tools
+categories: clojure
 tags:
 - clojure
+- coding
+- leiningen
 ---
 
 {% img img-thumbnail /images/clojure-logo.png %}

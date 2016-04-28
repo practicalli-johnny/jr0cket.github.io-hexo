@@ -1,8 +1,9 @@
 title: Clojure with Light Table and Emacs keybindings
 date: 2015-01-03 14:08:38
-categories: dev-tools
+categories: clojure
 tags: 
 - clojure
+- dev-tools
 - lighttable 
 ---
 

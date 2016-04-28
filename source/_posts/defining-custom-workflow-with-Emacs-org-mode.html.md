@@ -1,9 +1,10 @@
 title: Defining custom task workflows with Emacs Org-mode
 date: 2013-08-27 12:00:00
-categories: dev-tools
+categories: emacs
 tags: 
 - emacs
-- orgmode
+- dev-tools
+- org-mode
 ---
 
 {% img img-thumbnail http://1.bp.blogspot.com/-PLeobToC6lc/TzFJCfBSLPI/AAAAAAAAEbE/zSx1cOgHzZE/s1600/emacs128x128icon.png %}

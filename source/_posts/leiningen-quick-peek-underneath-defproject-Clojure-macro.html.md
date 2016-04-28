@@ -1,14 +1,16 @@
 title: Leiningen - quick peek underneath the defproject Clojure macro
 date: 2013-02-21 21:30:00
-categories: dev-tools
+categories: clojure
 tags: 
 - clojure
+- dev-tools
 - leiningen
+
 ---
 
 {% img img-thumbnail http://1.bp.blogspot.com/-rxD8__T6tzA/TzFNNTKKLwI/AAAAAAAAEb8/k10iLxa3I70/s1600/leiningen-face.jpg %}
 
-[Leiningen](http://leiningen.org/) is a project automation tool (think build tool and them some) that uses a Clojure macro to make it easy for [Clojure](http://clojure.org/) developers to manage their project lifecycle.
+[Leiningen](http://leiningen.org/) is a project automation tool (think build tool and them some) that uses a [Clojure macro](http://clojure.org/reference/macros) to make it easy for [Clojure](http://clojure.org/) developers to manage their project lifecycle.
 
 A Clojure project managed by Leiningen uses a simple clojure file called `project.clj` which allows developers to define a whole range of stuff about their projects.  To get started you only have to define a name, a version of Clojure and any dependencies in your `project.clj` and Leininge does the rest.  
 
@@ -29,6 +31,23 @@ If you add something to your `project.clj` file and wonder what is has changed u
 Using the project map to understand what dependencies you have pulled in could be a great way to streamline your project, or help debug it if something when wrong after adding a new dependency.
 
 Leiningen also merges your profile configuration `~/.lein/profiles.clj` along with your `project.clj` settings when creating the project map.&nbsp; This can be seen in the above example.&nbsp; Near the end of the file is a `:plugins keyword`, the following 3 lines are plugins I defined in my profile.&nbsp; Leiningen will work out the smartest way to merge your `profile.clj` and `project.clj`.  If in doubt, you can check the project map.
+
+# The defproject macro code 
+
+Here is the source code for the `defproject` macro:
+
+```clojure
+(defmacro defproject
+  "The project.clj file must either def a project map or call this macro.
+  See `lein help sample` to see what arguments it accepts."
+  [project-name version & args]
+  `(let [args# ~(unquote-project (argument-list->argument-map args))
+         root# ~(.getParent (io/file *file*))]
+     (def ~'project
+       (make args# '~project-name ~version root#))))
+```
+
+You can also see the [source code of the defproject macro](https://github.com/technomancy/leiningen/blob/master/leiningen-core/src/leiningen/core/project.clj) in context of the Leingingen project at its Github repository.
 
 Thank you.
 [@jr0cket](https://twitter.com/jr0cket)

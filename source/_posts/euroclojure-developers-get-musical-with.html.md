@@ -1,9 +1,12 @@
 title: EuroClojure - developers get musical with Overtone
 date: 2012-05-24 11:02:00
-categories: events
+categories: clojure
 tags: 
 - clojure
+- coding
 - euroclojure
+- events
+
 ---
 
 {% img img-thumbnail http://1.bp.blogspot.com/-Wo6T3gjQpAA/Tzeu0e4laKI/AAAAAAAAEeQ/xbyWBx246qc/s1600/overtone-logo-rounded-corners.png %} 
