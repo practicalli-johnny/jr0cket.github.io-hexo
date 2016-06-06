@@ -17,6 +17,20 @@ All you need is to add the `github` layer to your `~/.spacemacs` configuration f
 
 <!-- more -->
 
+# Connecting to your Github account
+
+When you first run any of the Gist or Github commands you will be prompted for your username, password and 2Factor code.  The Gist.el code will [create a personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) on your Github account, avoiding the need to prompt for your Github login details each time.
+
+If you are prompted to enter your personal access token in Emacs, then visit your Github profile page and view the **personal acccess tokens** section.  Edit the token named `git.el` and regenerated the token.  This will take you back to the personal access tokens page and display the new token for git.el.  Copy this token into the `[github]` section of your `~/.gitconfig` as follows
+
+```
+[github]
+	user = jr0cket
+	oauth-token = thisishweretherealtokenshouldbepasted
+```
+
+> If `git.el` adds a password line to the `[github]` section of your `~/.gitconfig` you should remove that password line.  These Github actions only require your username and token.
+
 # Creating a Gist from Spacemacs 
 
 The current buffer can be copied into a Github Gist using the command `M-x gist-buffer`.
@@ -33,6 +47,8 @@ You can also create a gist just from a selected region of the buffer.  First sel
 - `M-m g g r` : create a public gist from the highlighted region
 - `M-m g g R` : create a private gist from the highlighted region
 - `M-m g g l` : list all gists on your github account
+
+> Replace `M-m` with `SPC` if you are using Spacemacs evil mode 
 
 # Updating a Gist 
 
