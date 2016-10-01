@@ -1,4 +1,4 @@
-title: Clojure templates are easy with Leinigen
+title: Clojure templates are easy with Leiningen
 date: 2015-03-09 22:58:28
 categories: clojure
 tags:
