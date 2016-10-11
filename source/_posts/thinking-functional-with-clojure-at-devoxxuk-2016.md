@@ -1,6 +1,6 @@
 title: thinking functional with clojure at DevoxxUK 2016
 date: 2016-06-08 23:01:30
-categories: Clojure
+categories: clojure
 tags:
 - clojure
 - events
@@ -12,7 +12,7 @@ Many languages new and old provide a way to write code using functional programm
 
 As Clojure has a simple syntax, many find it easier to focus on learning the concepts and design of functional programming.  Then either taking those concepts back to other languages or continuing with Clojure.
 
-At DevoxxUK 2015 I have the pleasure of running a workshop where I can help developers understand the core functional concepts, using Clojure (and Spacemacs) as simple tools.
+At DevoxxUK 2016 I have the pleasure of running a workshop where I can help developers understand the core functional concepts, using Clojure (and Spacemacs) as simple tools.
 
 <!-- more -->
 
@@ -59,7 +59,9 @@ With plenty of opportunity to try code out for yourself, this workshop will disc
 
 # In Summary
 
-By the end of this workshop you should know much more about Functional Programming, wether you decide to continue with Clojure or take these concepts to another language.
+By the end of [this workshop](https://practicalli.github.io/clojure/) you should know much more about Functional Programming, wether you decide to continue with Clojure or take these concepts to another language.
+
+_Update: The workshop is now available online, so please take a look at the [thinking functionally](https://practicalli.github.io/clojure/thinking-functionally/) section_.
 
 There are plenty of follow-on resources for Clojure & functional programming included in the workshop and all code will be available in the [Practicalli Github organization](https://github.com/practicalli).
 
