@@ -10,15 +10,21 @@ tags:
 
 {% img img-thumbnail http://git-scm.com/images/logo.png %}
 
-Once little self-inflicted annoyance I found was when working with Git was committing temporary and backup files that my development tools create.  Yes, I should pay more attention and not just do a `git add .` but when you are head down coding then its easy to include a few things you dont need.
+Even though I use `.gitignore` files to control common files that should not be committed to a git repository, its very easy to forget about the backup or temporary files that my development tools generate.  As these auto-generated files are development tool specific, they are not always included in a `.gitignore` file.
+
+Especially when you are under pressure to commit changes or deploy your code its easy to include a few things you dont need, especially when using the commands `git add .` or `git commit -am ""`.
+
+So when I discovered the idea of using a `.gitignore_global` file, I quicky adopted this and saved myself a lot of time with this simple approach.
 
 <!-- more -->
 
-Whilst I could simple add patters to the git repository `.gitignore` file, this is not very effective for three reasons.
+Whilst I could simply add the patterns to the git repository `.gitignore` file, however this is not very effective for three reasons.
 
 1.  I'm adding my own preferences to a project I'm sharing with others, who may have different toolset.
 
-2.  I have to add this to each new project I create / clone / fork3.  Pull requests can be blocked up by changes to `.gitignore` files
+2.  I have to add this to each new project I create / clone / fork.
+
+3.  Pull requests can be confusing or simply rejected by unneccessary changes to `.gitignore` files
 
 After a little more discovery with Git, I found that `.gitignore_global` is a better way to exclude files that were specific to my tools and environment than individual project `.gitignore` files.
 
@@ -28,9 +34,11 @@ Emacs is the tool I used for my Clojure development, as well as writning contnet
  
 So in the `~/.gitconfig` of my home directory I have a section called [core] where a global excludes file is defined
 
+```
     [core]
         excludesfile = /Users/jstevenson/.gitignore_global
         editor = emacsclient
+```
 
 By adding file name patters to the `.gitignore_global` file for Emacs, I can add my own personal excludes without adding unneccessary stuff to each project I work on.  It also means its one less thing to remember when I am working with git projects.
 
@@ -38,11 +46,13 @@ By adding file name patters to the `.gitignore_global` file for Emacs, I can add
 
 My `~/.gitignore_global` file now contains the following filename patterns, the last three patterns are specifically for the Emacs temporary and backup files.
 
+```
     *~
     .DS_Store
     *~
     *#
     .#*
+```
 
 # Keeping project .gitignore files clean
 
@@ -62,7 +72,9 @@ pom.xml
 /target
 ```
 
-Finally, by minimising the changes in the project `.gitignore` file then this limits the amount of times that file needs to be committed to the version control system.  Therefore it is less likely that a change in the `.gitignore` file end up in code change commits.
+Finally, by minimising the changes in the project `.gitignore` file this limits the amount of times that file needs to be committed to the version control system.  It is less likely that a change in the `.gitignore` file end up in code change commits.
+
+> See the [github/gitignore repository](https://github.com/github/gitignore) for examples of language and build tool specific `gitignore` patterns.
 
 Thank you.
 [@jr0cket](https://twitter.com/jr0cket)
