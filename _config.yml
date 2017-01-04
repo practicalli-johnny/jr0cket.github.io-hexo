@@ -90,7 +90,7 @@ deploy:
   type: git
   repo: git@github.com:jr0cket/jr0cket.github.io.git
   branch: master
-  message: "jr0cket blog updated by Hexo deploy"
+  message: "jr0cket blog updated by Hexo deploy: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 ## RSS Feed - using https://github.com/hexojs/hexo-generator-feed
 feed:
