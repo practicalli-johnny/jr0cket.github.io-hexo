@@ -18,7 +18,7 @@ Org-mode is a really simple and beautiful way to take notes, create presentation
 
 Org-mode documents are plain text, so they are easy to write and understand even outside of Emacs. &nbsp;The magic is happens when Org-mode interacts with that text. &nbsp;Org-mode understands the structure of the text and lets you easily organise everything into something useful.
 
-I have written [**a simple guide to configuring Org-mode and Org-capture**](http://jr0cket.co.uk/2013/08/config-emacs-org-mode-to-manage-tasks.html), as well as** [a guide to creating your own task workflow](http://jr0cket.co.uk/2013/08/defining-custom-workflow-with-Emacs-org-mode.html)** for Org-mode.
+I have written [**a simple guide to configuring Org-mode and Org-capture**](http://jr0cket.co.uk/2013/08/configure-emacs-org-mode-to-manage-your-tasks.html.html), as well as** [a guide to creating your own task workflow](http://jr0cket.co.uk/2013/08/defining-custom-workflow-with-Emacs-org-mode.html)** for Org-mode.
 
 Here is a quick YouTube video overview of Org-mode for Emacs by [Richard Dillon](http://www.youtube.com/user/rpdillon?feature=watch), to understand the keyboard short-cuts used (key bindings) then see his [Org-mode notes](https://github.com/rpdillon/hack-emacs-notes) on Github. &nbsp;Or if you are already hooked on the idea of Org-mode then see the In-depth guide at the end of this article.
 
