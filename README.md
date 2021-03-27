@@ -4,6 +4,7 @@ This repository contains the content for the [jr0cket.co.uk](http://jr0cket.co.u
 
 The blog website is generated using [Hexo.io](http://hexo.io) and deployed to [Github Pages](https://pages.github.com).
 
+> Newer content can be found on the [practicalli blog](htts://practicalli.github.io/blog/)
 
 # Using this project
 
@@ -12,18 +13,18 @@ The blog website is generated using [Hexo.io](http://hexo.io) and deployed to [G
 First clone the project and change into the directory created by the clone
 
 ```
-git clone origin git@github.com:jr0cket/jr0cket.github.io-hexo.git
+git clone -o jr0cket git@github.com:jr0cket/jr0cket.github.io-hexo.git
 cd jr0cket.github.io-hexo
 ```
 
-## Getting the Git submodules 
+## Getting the Git submodules
 
 There are two git submodules used with this project that need to be pulled in after cloning the project:
 
 * themes/landscape/jr0cket - a customise theme
-* node_modules_manual/hexo-generator-category-feed - generates individual catagory feeds 
+* node_modules_manual/hexo-generator-category-feed - generates individual catagory feeds
 
-To pull these submodule in, use the 
+To pull these submodule in, use the
 
 ```
 git submodule init
