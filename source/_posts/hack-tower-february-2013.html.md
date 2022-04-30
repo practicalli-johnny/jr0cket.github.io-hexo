@@ -1,4 +1,4 @@
-title: Hack The Tower - February 2013
+title: Hack The Tower February 2013
 date: 2013-02-22 14:08:00
 categories: events
 tags:
@@ -16,7 +16,8 @@ Heading out for a full day of coding [@HackTheTower](https://twitter.com/HackThe
 Developers arrived from different communities, including
 
 *   [London Scala user group](http://www.meetup.com/london-scala/)
-*   [London Clojure community](https://groups.google.com/forum/?fromgroups#!forum/london-clojurians)*   [London Java Community](http://www.meetup.com/Londonjavacommunity/)
+*   [London Clojure community](https://groups.google.com/forum/?fromgroups#!forum/london-clojurians)
+*   [London Java Community](http://www.meetup.com/Londonjavacommunity/)
 *   [London Salesforce developers](http://www.meetup.com/LondonSalesforceDevelopers/)
 *   [London Software Craftsmanship](http://www.meetup.com/london-software-craftsmanship/)>
 
@@ -54,7 +55,7 @@ Luckily Github was not down for long.  As git is distributed, we were able to sa
 
 Everyone’s instant favourite project seemed to be the NVO robot.  Its an amazing piece of kit.  Essentially a programmable robot that can by default can play Japanese music and do Tai Chi.
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/rJnjmwtGQuE" width="420"></iframe>
+{% youtube rJnjmwtGQuE %}
 
 You can program the robot visually, by dragging and dropping actions and wiring them up together.  You can create a sequence of positions and get the software to work out the moves necessary to go from one position to another.  Just like digital animators use in software like blender.
 
@@ -73,6 +74,7 @@ The robot has stereoscopic cameras and can do face recognition, in that it recog
 {% endblockquote %}
 
 # London Scala user group
+
 {% img img-thumbnail http://2.bp.blogspot.com/-kIrzG80xsL4/UMcqsNDxzzI/AAAAAAAAIsU/hKMCeoPdGkk/s1600/lsug-logo.jpeg %}
 
 There were a lot of developers from LSug  group and they ended up split into three smaller groups to focus on different problems.
@@ -81,7 +83,7 @@ Some of the team were working with MongoDB, some working on the RSVP via meetup.
 
 # Coding board
 
-> [@villademor](https://twitter.com/villademor) Playing around with [codingboard.org](http://t.co/ReN3kzR5), [#Scala](https://twitter.com/scala") on [@HackTheTower](https://twitter.com/HackTheTower) [#LondonScala](https://twitter.com/londonscala) with [@balopat](https://twitter.com/balopat), [@gnorsilva](https://twitter.com/gnorsilva "gnorsilva") among others!
+> [@villademor](https://twitter.com/villademor) Experimenting with [codingboard.org](http://t.co/ReN3kzR5), [#Scala](https://twitter.com/scala") on [@HackTheTower](https://twitter.com/HackTheTower) [#LondonScala](https://twitter.com/londonscala) with [@balopat](https://twitter.com/balopat), [@gnorsilva](https://twitter.com/gnorsilva "gnorsilva") among others!
 
 [Coding Board](http://codingboard.org/) is a small web application allowing developers to share code with each other in a hands-on session.  When we want to talk about the decisions we took as we approached a problem, its  nice to have the code itself shared on the screen in a syntax  highlighted way.
 
