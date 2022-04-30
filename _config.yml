@@ -88,7 +88,7 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:jr0cket/jr0cket.github.io.git
+  repo: git@github.com:practicalli-john/jr0cket.github.io.git
   branch: master
   message: "jr0cket blog updated by Hexo deploy: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
